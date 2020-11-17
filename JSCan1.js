@@ -20,8 +20,8 @@ let poly = function () {
         ctx.lineTo(150, 50);    // line to coordinate
         ctx.lineTo(180, 150);
 
-        ctx.lineTo(48, 200);
 
+        ctx.closePath(); 
 
         ctx.fillStyle = 'silver';
         ctx.strokeStyle = 'black';
